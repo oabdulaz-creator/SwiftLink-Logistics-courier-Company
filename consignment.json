@@ -1,0 +1,72 @@
+[
+    {
+        "type": "Shipment",
+        "tracking_id": "SL-1001",
+        "sender_name": "Amara K.",
+        "recipient_name": "J. Niyonzima",
+        "destination_city": "Kigali",
+        "weight_kg": 4,
+        "base_rate_per_kg": 1500
+    },
+    {
+        "type": "TrackedShipment",
+        "tracking_id": "SL-1002",
+        "sender_name": "David M.",
+        "recipient_name": "Aline U.",
+        "destination_city": "Huye",
+        "weight_kg": 6,
+        "base_rate_per_kg": 1500,
+        "declared_value": 400000,
+        "insurance_rate": 0.03,
+        "current_status": "received"
+    },
+    {
+        "type": "ExpressParcel",
+        "tracking_id": "SL-1003",
+        "sender_name": "Sarah N.",
+        "recipient_name": "Jean P.",
+        "destination_city": "Musanze",
+        "weight_kg": 2.5,
+        "base_rate_per_kg": 1800,
+        "declared_value": 250000,
+        "insurance_rate": 0.02,
+        "current_status": "received",
+        "guaranteed_hours": 12
+    },
+    {
+        "type": "FragileParcel",
+        "tracking_id": "SL-1004",
+        "sender_name": "Peter K.",
+        "recipient_name": "Grace M.",
+        "destination_city": "Kigali",
+        "weight_kg": 8,
+        "base_rate_per_kg": 1600,
+        "declared_value": 900000,
+        "insurance_rate": 0.05,
+        "current_status": "received",
+        "handling_class": "glass",
+        "packaging_fee": 5000
+    },
+    {
+        "type": "BulkFreight",
+        "tracking_id": "SL-1005",
+        "sender_name": "John T.",
+        "recipient_name": "Eric R.",
+        "destination_city": "Kigali",
+        "weight_kg": 320,
+        "base_rate_per_kg": 900,
+        "pallet_count": 6,
+        "volume_m3": 14
+    },
+    {
+        "type": "BulkFreight",
+        "tracking_id": "SL-1006",
+        "sender_name": "Mary A.",
+        "recipient_name": "Claudine B.",
+        "destination_city": "Kigali",
+        "weight_kg": 500,
+        "base_rate_per_kg": 900,
+        "pallet_count": 4,
+        "volume_m3": 12
+    }
+]

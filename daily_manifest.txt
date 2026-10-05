@@ -1,0 +1,9 @@
+=== SwiftLink Logistics: daily manifest ===
+SL-1001 Kigali Shipment 6,000.00
+SL-1002 Huye TrackedShipment 21,000.00
+SL-1003 Musanze ExpressParcel 21,500.00
+SL-1004 Kigali FragileParcel 64,720.00
+SL-1005 Kigali BulkFreight 362,000.00
+SL-1006 Kigali BulkFreight 458,000.00
+-----------------------------------------------------
+Manifest total 933,220.00
